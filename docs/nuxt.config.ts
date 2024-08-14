@@ -4,5 +4,10 @@ export default defineNuxtConfig({
   modules: ['@nuxt/content'],
   routeRules: {
     '/': { prerender: true }
+  },
+  content: {
+    highlight: {
+      theme: 'github-light'
+    }
   }
 })
